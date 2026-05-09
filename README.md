@@ -1,3 +1,9 @@
+This is a public copy of the `purrfect-haven` repository, developed as a final project for our CMSC 121 Course "Internet Technologies".
+
+Disclaimer: This repository is for resume-viewing purposes. I do not take full credit for the full project. I simply helped to contribute. 
+
+---
+
 # Purrfect Haven
 
 ---
