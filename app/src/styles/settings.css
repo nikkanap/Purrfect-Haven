@@ -1,0 +1,172 @@
+/* Settings Pages Styling */
+.settings-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 100px);
+  background-color: var(--color-background);
+  padding: 40px 20px;
+}
+
+.settings-card {
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: 12px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.settings-card-top {
+  background: linear-gradient(to right, #5A3923, #C0794A);
+  width: 100%;
+  height: max-content;
+  padding: 20px;
+}
+
+.settings-card-top h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.settings-card-top > p {
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.settings-card-nav {
+  padding: 20px;
+  background-color: #FFF1DA;
+  display: flex;
+  gap: 20px;
+}
+
+.settings-card-nav button {
+  background: none;
+  border: none;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.settings-card-nav button:hover {
+  cursor: pointer;
+}
+
+.current {
+  text-decoration: underline;
+}
+
+.settings-form {
+  padding: 20px 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-info-title > p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="number"],
+.form-group input[type="tel"] {
+  padding: 12px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--color-secondary);
+  box-shadow: 0 0 0 3px rgba(137, 87, 55, 0.1);
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 12px;
+  top: 38px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  font-size: 18px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password-toggle img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.password-toggle:hover {
+  color: var(--color-text-primary);
+  opacity: 0.8;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .settings-card {
+    width: 80%;
+  }
+
+  .settings-card h1 {
+    font-size: 24px;
+  }
+}
+
+.success-banner {
+  background-color: #dcfce7; 
+  color: #166534;          
+  padding: 0.75rem 1rem;
+  margin-top: 1.5rem;       
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.warning-banner {
+  background-color: #fef2f2; 
+  color: #991b1b;           
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+}

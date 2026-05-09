@@ -1,0 +1,22 @@
+[
+  {
+    "question": "How do I adopt a pet?",
+    "answer": "Browse our Available Pets section, find a pet you love, and click \"Adopt Now\". You'll be taken through our adoption application process. We'll verify your information and contact you to finalize the adoption. All our adopted pets come vaccinated and neutered/spayed!"
+  },
+  {
+    "question": "What documents do I need to adopt?",
+    "answer": "You'll need a valid ID, proof of address, and contact information. If you rent, we may request a letter from your landlord approving pet ownership. This helps ensure our pets go to safe, permanent homes."
+  },
+  {
+    "question": "Can I return a pet if adoption doesn't work out?",
+    "answer": "Yes! If for any reason the adoption doesn't work out, we accept pets back within 30 days. No questions asked. Your pet's welfare is our priority, and we'd rather help find the right match."
+  },
+  {
+    "question": "How can I report an animal in need?",
+    "answer": "Visit our \"Report a Rescue\" section and fill out the form with details and photos of the animal. Include location and any health concerns. Our team will review and coordinate rescue efforts. You can also call our hotline for urgent cases."
+  },
+  {
+    "question": "Is there an adoption fee?",
+    "answer": "Yes, adoption fees typically range from ₱500-₱2,000 depending on the pet's age and health. These fees help cover veterinary care, food, and shelter operations. All fees are transparent and discussed upfront."
+  }
+]

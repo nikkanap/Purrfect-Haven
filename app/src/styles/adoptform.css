@@ -1,0 +1,273 @@
+/* Adoption Form Page Styling */
+.adoptpet-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 40px 20px;
+  background-color: var(--color-background);
+}
+
+.adoptpet-card {
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: 12px;
+  padding: 50px 40px;
+  max-width: 90%;
+  width: 900px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.adoptpet-container > p {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+li {
+  margin-left: 35px;
+}
+
+label{
+  color: var(--color-text-secondary);
+}
+
+.adoptpet-card h4 {
+  color: var(--color-text-secondary);
+  font-size: 15px;
+}
+
+.adoptpet-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group.form-row {
+  flex-direction: row;
+  gap: 15px;
+}
+
+.form-group.form-row input {
+  flex: 1;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="number"],
+.form-group input[type="tel"],
+.form-group textarea {
+  padding: 12px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--color-secondary);
+  box-shadow: 0 0 0 3px rgba(137, 87, 55, 0.1);
+}
+
+.form-group textarea {
+    height: 168px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+/* Space below the p sub-label before checkbox/radio options */
+.report-form-group > p {
+  margin-bottom: 6px;
+}
+
+/* Gap between consecutive option rows */
+.report-form-group .checkbox-group + .checkbox-group,
+.report-form-group .radio-group + .radio-group {
+  margin-top: 6px;
+}
+
+.radio-group input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: var(--color-primary);
+}
+
+.contact-info-container {
+    width: 50%;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.af-detail-main-photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.af-info-card {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+  border-radius: 12px;
+  padding: 30px;
+  gap: 20px;
+}
+
+.adoptpet-upload-dropzone {
+  border: 2px dashed var(--color-border);
+  border-radius: 12px;
+  padding: 25px;
+  text-align: center;
+  background: #fdfaf7;
+  position: relative;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.adoptpet-hidden-file {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.adoptpet-upload-icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.adoptpet-upload-dropzone p {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  color: var(--color-text-secondary);
+}
+
+.adoptpet-upload-dropzone small {
+  font-size: 11px;
+  color: #9c8c82;
+}
+
+/* AdoptionDetailsPage */
+.adopt-details-wrapper {
+  background-color: var(--color-background);
+  padding: 40px;
+}
+
+.adopt-details-card {
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.adopt-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.adopt-detail-label {
+  font-size: 11px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.adopt-detail-value {
+  font-weight: 500;
+  color: var(--color-text-primary);
+  font-size: 14px;
+}
+
+.adopt-detail-value.condition {
+  white-space: pre-wrap;
+  line-height: 1.6;
+}
+
+.adopt-detail-timestamp {
+  font-size: 13px;
+  color: #999;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-border);
+  margin-top: 20px;
+}
+
+.adopt-detail-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.adopt-details-header {
+  text-align: center;
+  margin-bottom: 15px; /* Extra 5px*/ 
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .adoptpet-card {
+    width: 100%;
+    padding: 35px 25px;
+  }
+
+  .adoptpet-card h1 {
+    font-size: 24px;
+  }
+}
+

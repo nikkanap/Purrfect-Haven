@@ -1,0 +1,152 @@
+.nav {
+  position: static;
+  height: 100px;
+  width: 100%;
+  background-color: var(--l-text);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  align-items: center;
+  color: var(--text-h);
+
+  .navOptions {
+    display: flex;
+    gap: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+     color: var(--text-h);
+  }
+}
+
+.imageContent {
+  display: flex;
+  flex-direction: column;
+
+  .imageDiv {
+    background-image: url("dashboard-cats.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 746px;
+    background-repeat: no-repeat;
+
+    .blur {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      p, h1 {
+        color: var(--l-text);
+      }
+
+      h1 {
+        font-size: 56px;
+        line-height: 56px;
+      }
+    }
+  }
+}
+
+.featuredStory {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    .fsContent {
+      width: 90%;
+      height: 479;
+      display: flex;
+      flex-direction: row;
+
+      .fscat {
+        background-image: url("julie-anne.jpg");
+        border-radius: 10px;
+        min-width: 516px; 
+        min-height: 479px;
+        background-size: cover;
+      }
+
+      .fs_text {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    
+}
+
+.adoptionList {
+  display: flex;
+
+  img {
+    object-fit: cover;
+    width: 282px;
+    height: 279px;
+    border-radius: 100%;
+  }
+
+  .pet {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+  }
+}
+
+
+
+.smallComputer {
+  width: 30px;
+  height: 30px;
+  background-color: var(--l-text);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  border: 1px solid var(--l-text);
+  width: 90%
+}
+
+.petsForAdoption, .adoptedPets {
+  padding: 20px;
+  background-color: var(--l-text);
+  margin: 30px 0;
+
+  .adoptionList {
+    gap: 30px;
+    
+
+    .darkcircle {
+      position: relative;
+      top: -285px;
+      width: 282px;
+      height: 279px;
+      border-radius: 100%;
+      background-color: black;
+      opacity: 50%;
+
+      .adoptedlabel {
+        color: var(--l-text);
+        background-color: lightgreen;
+      }
+    }
+
+  }
+}

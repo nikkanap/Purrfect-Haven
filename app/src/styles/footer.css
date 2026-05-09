@@ -1,0 +1,135 @@
+/* Footer Styling */
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+  margin-top: auto;
+  padding: 15px 20px 10px 20px;
+  gap: 20px;
+  border-top: 3px solid var(--color-secondary);
+  font-size: 14px;
+}
+
+footer img {
+    height: 30px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-section h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text-light);
+}
+
+.footer-section p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none;
+}
+
+.footer-section a {
+  color: var(--color-text-light);
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.footer-section li {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+/* Social Links */
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  filter: brightness(0) invert(1);
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.heart {
+  color: #e74c3c;
+  margin: 0 3px;
+}
+
+.tagline {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 15px 15px 15px;
+    gap: 20px;
+  }
+
+  .footer-content {
+    gap: 25px;
+  }
+
+  .footer-section {
+    min-width: 150px;
+    flex: 0 1 100%;
+    text-align: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+}

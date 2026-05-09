@@ -1,0 +1,78 @@
+.notfound-container {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: var(--color-background);
+}
+
+.notfound-card {
+  background-color: var(--color-surface);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(94, 48, 35, 0.1);
+  padding: 56px 48px;
+  text-align: center;
+  max-width: 480px;
+  width: 100%;
+}
+
+.notfound-code {
+  font-size: 96px;
+  font-weight: 800;
+  line-height: 1;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+
+.notfound-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin: 0 0 12px 0;
+}
+
+.notfound-message {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin: 0 0 36px 0;
+}
+
+.notfound-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.notfound-btn {
+  display: inline-block;
+  padding: 11px 28px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.notfound-btn-primary {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+}
+
+.notfound-btn-primary:hover {
+  background-color: var(--color-secondary);
+}
+
+.notfound-btn-secondary {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-primary);
+}
+
+.notfound-btn-secondary:hover {
+  background-color: var(--color-overlay);
+}
